@@ -1,18 +1,22 @@
-# SCT_CYB_02 - Password Strength Checker
+# SCT_CYB_04 - Basic Keylogger (Educational)
 
 ## 🔐 Task Summary:
-This Python script evaluates the strength of a user-provided password based on length, use of uppercase and lowercase characters, numbers, and symbols.
+This basic keylogger records keystrokes typed on the keyboard and saves them into a local file. This is created purely for educational and ethical use.
 
 ## 💡 Features:
-- Checks password complexity
-- Gives a strength rating (Weak, Medium, Strong)
-- Encourages use of secure passwords
+- Logs keystrokes in the background
+- Saves logs to a file
+- Runs continuously using a listener
+
+## ⚠️ Ethical Note:
+This script is for learning purposes only. Do not deploy or run this software on devices without permission. Unauthorized keylogging is illegal.
 
 ## 🧠 What I Learned:
-- Python's use of regex and string checks
-- Best practices in password creation
-- Importance of cybersecurity hygiene
+- Use of `pynput` library for keyboard input
+- Handling background processes
+- File handling in Python
 
 ## ▶️ How to Run:
-```bash
-python password_checker.py
+1. Install the required module:
+   ```bash
+   pip install pynput
